@@ -8,7 +8,7 @@ const StudentForm = ({ editStudent, setEditStudent, refreshList, departments }) 
     departmentId: ''
   });
 
-  // Set initial form data when editing
+  
   useEffect(() => {
     if (editStudent) {
       setFormData({
